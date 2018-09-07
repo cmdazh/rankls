@@ -1,0 +1,235 @@
+
+		/*color pallet
+		5D007F
+		CE4CFF
+		B900FF base
+		44264F
+		9400CC */
+
+		html {
+			font-family: 'Antic', sans-serif;
+		}
+
+		.container {
+			background: #da4453;
+			background: -webkit-linear-gradient(
+				to right, #da4453, #89216b
+			);
+			background: linear-gradient(
+				to right, #da4453, #89216b
+			);
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.content {
+			
+			/*height: 90%;
+			width: 75%;
+			*/
+			height: 80vh;
+			width: 85vw;
+			background-color: #f7b7f3;
+			box-shadow: 0 6px 6px rgba(0,0,0,0.16) , 0 6px 6px rgba(0,0,0,0.23);
+			position: relative;
+			padding: 0.5em;
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			overflow: scroll;
+		}
+
+		.table {
+			width: 100%;
+			border-spacing: 0;
+		}
+
+		.table td, 
+		.table th {
+			padding: 1em;
+			text-align: left;
+		}
+
+		.table tr:nth-child(even) {
+			background-color: #af3fa8;
+		}
+
+		td:nth-of-type(1){
+			font-size: 1.5em;
+			color: red;
+		}
+
+
+
+		th {
+			display: none;
+		}
+
+		td {
+			display: block;
+
+		}
+
+		.fa-star {
+			color: red;
+		}
+
+		/*
+
+		.center {
+			text-align: center;
+		}
+
+		*/
+
+		.underline {
+			border-bottom: solid 5px #af3fa8;
+			padding-bottom: 20px;
+		}
+
+		.position {
+			background-color: #af3fa8;
+			color: white;
+			padding: 10px;
+			border-radius: 5px;
+			margin-left: 5px
+
+		}
+
+		/*.actions {
+			position: absolute;
+			top: 1em;
+			right: 1em;
+		}
+		*/
+
+		.actions {
+			position: sticky;
+			top: 1em;
+			left: : 1em;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		.close {
+			height: 40px;
+			width: 40px;
+			color: white;
+			background-color: #af3fa8;
+			display: inline-block;
+			border-radius: 5px;
+			box-shadow: 0 6px 6px rgba(0,0,0,0.16) , 0 6px 6px rgba(0,0,0,0.23);
+			font-weight: 500;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.title {
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.title-item {
+			font-size: 0.8em;
+		}
+
+		.item-image {
+			display: none;
+		}
+
+		iframe {
+			width: 80vw;
+		}
+
+
+		.text {
+			font-weight: 500;
+		}
+
+		/*pseudo clases
+		hover / visiter /active /focus
+
+
+		*/
+
+		i:hover {
+			color: yellow;
+		}
+
+		a:visited {
+			color: white;
+		}
+
+
+/* UNIDADES DE MEDIDAS CSS
+
+UNIDADES FIJAS, ESTATICAS O ABSOLUTAS
+pixeles px, centimetros cm, milimetros mm, 
+picas pc, puntos pt.
+
+UNIDADES DE MEIDA RELATIVA
+
+porcentajes %, em (ref en tamaño de letra), ex (ref a tamaño de la X de la fuente), rem (red en base a la fuente html), 
+vh (cada un vh vale 1% del alto de la pantalla), vw (cada vw 1% del ancho) */
+
+/* MEDIA QUERYS
+
+@media(breakpoint){propiedades}*/
+
+@media(min-width: 600px){
+	th{
+		display: table-cell;
+	}
+	td{
+		display: table-cell;
+	}
+
+	td:nth-of-type(1){
+			font-size: 1.5em;
+			color: black;
+		}
+
+	.content {
+		width: 90vw;
+		height: 70vh;
+		padding: 2em;
+		}
+
+	.item-image {
+			display: inline-block;
+		}
+
+		iframe {
+			width: 500px;
+			height: 250px;
+		}
+
+	.inline {
+		display: inline-block;
+		}
+
+	.actions {
+			position: absolute;
+			top: 1em;
+			right: 1em;
+		}
+
+	.title-item {
+			text-transform: uppercase;
+			font-size: 1.5em;
+		}
+
+		
+
+
+
+
+
